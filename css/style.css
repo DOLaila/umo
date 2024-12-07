@@ -1,0 +1,84 @@
+
+.viewPort{
+    background-color: #e4e4e4;
+}
+.nav-item  a{
+    color: #545454;
+    font-weight: 500;
+    
+    font-family: "Jost", sans-serif;
+}
+.groupicons{
+    color: #545454;
+    font-size: 1.5rem;
+    font-size: 16px;
+    
+    
+}
+ .details{
+    display: none;
+    width: 700px;
+   
+    left: -90px;
+    
+    
+ }
+.details ul li {
+    padding-bottom: 20px;
+    
+}
+.details a{
+   text-decoration: none;
+   color: #545454;
+}
+ .navbar-nav > li:hover .details{
+
+    display: block;
+    
+ } 
+
+ .navbar-nav > li > a{
+    position: relative;
+    
+ }
+
+ .navbar-nav > li > a:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    background: black;
+    transition: 0.5s all;
+
+}   
+.navbar-nav > li > a:hover::after{
+    width: 40px;
+}
+.menuShop{
+    display: none;
+    left: 0;
+    right: 0;
+}
+.navbar-nav > li:hover .menuShop{
+
+    display: block;
+    
+ } 
+ .menuShop ul li {
+    padding-bottom: 10px;
+ }
+ .detailShop > a{
+    color: #545454;
+ }
+ .imageShop .image{
+    width: 400px;
+ }
+ .content{
+    bottom: 60px;
+    left: 10px;
+    color: #222222;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+ }
